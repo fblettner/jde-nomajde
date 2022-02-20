@@ -1,8 +1,8 @@
-# JAVA API for JDEDWARDS
+# JAVA API for JD EDWARDS
 ### Built with VSCode and JDK 1.8
 
 ## Functionalities
-- jdebip : export XML source or PDF Output from JD Edwards BLOB columns
+- jdebip : export XML source or PDF Output from JD Edwards BLOB fields
 - tools : encode / decode a password to update encrypt password into config files
 
 ## JDEBIP
@@ -21,7 +21,7 @@ This class can be used to export blob column for BI Publisher from JD Edwards Da
 | DELETE_F95630 | SQL query to delete record into F95630 |
 
 ## Usage
-- Extract XML Source
+- Extract XML Source\
 java -cp ../dist/nomajde.jar jdebip XML \<OBJECT_NAME> \<VERSION> \<LANGUAGE> \<JOB_NUMBER>
- Extract PDF output
+- Extract PDF output\
 java -cp ../dist/nomajde.jar jdebip PDF \<OBJECT_NAME> \<VERSION> \<LANGUAGE> \<JOB_NUMBER>
